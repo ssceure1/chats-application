@@ -4,7 +4,7 @@ const { connected } = require('process');
 const app = express();
 const http = require('http').createServer(app);
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || "https://github.com/ssceure1/chats-application.git";
 
 http.listen(PORT, () => {
     console.log(`Listening on port ${PORT}`)
