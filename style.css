@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #F8F8F8;
+    font-family: 'Roboto', sans-serif;
+}
+section.chat_section {
+    /* display: flex; */
+    width: 800px;
+    max-width: 90%;
+    background: #fff;
+    position: relative;
+}
+.brand {
+    padding: 20px;
+    background: #f1f1f1;
+    display: flex;
+    align-items: center;
+}
+.brand h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #444;
+    margin-left: 10px;
+}
+.message_area {
+    width: 70%;
+    margin-right: 20px;
+    overflow-x: hidden;
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+    position: relative; 
+}
+textarea {
+    position: absolute;
+    bottom: 10px;
+    width: 80%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: #F8F8F8;
+}
+.message {
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative; 
+}
+.incoming {
+    float: left;
+    clear: both;
+    background-color: #8F88E8;
+    color: white;
+}
+.outcoming {
+    float: right;
+    clear: both;
+    background-color: #c9eafd;
+    color: #787986;
+    margin-left: auto;
+}
+.message >h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #333;
+    font-size: 14px;
+}
+/* 
+.message >p {
+    height: auto;
+    max-width: 300px;
+    border-radius: 2px;
+    padding: 10px;
+}
+.incoming >p {
+    color: white;
+    background-color: cornflowerblue;
+}
+.outcoming >p {
+    color: #444;
+    background-color: deepskyblue;
+}
+ */
+
+
+ .contact {
+    padding: 10px;
+    background-color: dimgray;
+    float: left;
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid grey;
+ }
