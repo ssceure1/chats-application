@@ -1,3 +1,4 @@
+console.log("This is server.js")
 const express = require('express');
 const { connected } = require('process');
 const app = express();
