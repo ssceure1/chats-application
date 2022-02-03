@@ -1,3 +1,5 @@
+console.log("This is client.js")
+
 const socket = io();
 
 
