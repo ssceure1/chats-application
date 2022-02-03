@@ -4,7 +4,7 @@ const { connected } = require('process');
 const app = express();
 const http = require('http').createServer(app);
 
-const PORT = process.env.PORT || "https://github.com/ssceure1/chats-application.git";
+const PORT = process.env.PORT || "https://peaceful-bohr-44c20f.netlify.app/";
 
 http.listen(PORT, () => {
     console.log(`Listening on port ${PORT}`)
